@@ -1,0 +1,63 @@
+.project-wrapper{
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, 24vw);
+}
+
+.project-card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-radius: 7px;
+    width: 23vw;
+    margin: 10px;
+
+    .name{
+        font-family: GOST type A, sans-serif;
+        font-weight:bolder;
+        font-style: italic;
+        font-size: 32px;
+        padding: 5px 5px 0px 5px;
+        border-bottom: 1px solid #000;
+    }
+    .description{
+        font-family: GOST type A, sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        text-align: center;
+        padding: 5px;
+    }
+    img{
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 92.5%;
+        aspect-ratio: 16/9;
+    }
+    .play-button{
+        box-shadow: none;
+        border: 1px solid #000;
+        font-family: GOST type A, sans-serif;
+        font-weight: bold;
+        border-radius: 24px;
+        font-size: 21px;
+        padding: 10px;
+        margin: 10px;
+        background-image: linear-gradient(to right, rgb(255, 190, 116),rgb(255, 241, 114));
+    }
+}
+@media (max-width: 768px) {
+    .project-wrapper{
+        grid-template-columns: repeat(2, 45vw);
+    }
+    .project-card{
+        width: 40vw;
+        .name{
+            font-size: 24px;
+        }
+        .description{
+            font-size: 18px;
+        }
+    }
+}
