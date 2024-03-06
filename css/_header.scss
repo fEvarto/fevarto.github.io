@@ -21,6 +21,10 @@ header{
             max-width: 35px;
         }
     }
+    .social:hover{
+        transition: 0.3s ease-in-out;
+        transform: scale(1.05);
+    }
     .self-text{
         text-align: center;
         font-family: GOST type A, sans-serif;
@@ -38,6 +42,10 @@ header{
         font-family: GOST type A, sans-serif !important;
         font-weight: bolder;
         font-size: 20px;
+    }
+    .bmc-btn:hover{
+        transition: 0.3s ease-in-out;
+        transform: scale(1.05);
     }
 }
 

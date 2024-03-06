@@ -45,8 +45,24 @@
         padding: 10px;
         margin: 10px;
         background-image: linear-gradient(to right, rgb(255, 190, 116),rgb(255, 241, 114));
+
+        &:hover{
+            transition: 0.3s ease-in-out;
+            transform: scale(1.05);
+            animation: gradient 1.5s linear infinite;
+            background-image: linear-gradient(var(--angle), rgb(255, 190, 116),rgb(255, 241, 114));
+
+            @keyframes gradient {
+                @for $i from 0 to 101{
+                    #{$i * 1%}{
+                        --angle: #{$i * 3.6deg + 90deg};
+                    }
+                }
+            }
+        }
     }
 }
+
 @media (max-width: 768px) {
     .project-wrapper{
         grid-template-columns: repeat(2, 45vw);
