@@ -1,8 +1,9 @@
 html{
     background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
 }
 .wrapper{
-    min-height: calc(100vh - 35px);
+    min-height: calc(100vh - 37px);
 }
 main{
     padding: 15px;

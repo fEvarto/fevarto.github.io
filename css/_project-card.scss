@@ -15,24 +15,23 @@
     margin: 10px;
 
     .name{
-        font-family: GOST type A, sans-serif;
-        font-weight:bolder;
+        font-family: Libernitus Sans, sans-serif;
+        font-weight: bolder;
         font-style: italic;
-        font-size: 32px;
+        font-size: 21px;
         padding: 5px 5px 0px 5px;
-        border-bottom: 1px solid #000;
     }
     .description{
-        font-family: GOST type A, sans-serif;
+        font-family: Libernitus Sans, sans-serif;
         font-style: italic;
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
         padding: 5px;
     }
     img{
         border: 1px solid #000;
         border-radius: 10px;
-        width: 92.5%;
+        width: 93%;
         aspect-ratio: 16/9;
     }
     .play-button{
@@ -70,7 +69,7 @@
     .project-card{
         width: 40vw;
         .name{
-            font-size: 24px;
+            font-size: 21px;
         }
         .description{
             font-size: 18px;

@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/gost-type-a");
+@import url("https://fonts.cdnfonts.com/css/libernitus-sans");
 .project-wrapper {
   align-self: center;
   display: grid;
@@ -16,24 +17,23 @@
   margin: 10px;
 }
 .project-card .name {
-  font-family: GOST type A, sans-serif;
+  font-family: Libernitus Sans, sans-serif;
   font-weight: bolder;
   font-style: italic;
-  font-size: 32px;
+  font-size: 21px;
   padding: 5px 5px 0px 5px;
-  border-bottom: 1px solid #000;
 }
 .project-card .description {
-  font-family: GOST type A, sans-serif;
+  font-family: Libernitus Sans, sans-serif;
   font-style: italic;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   padding: 5px;
 }
 .project-card img {
   border: 1px solid #000;
   border-radius: 10px;
-  width: 92.5%;
+  width: 93%;
   aspect-ratio: 16/9;
 }
 .project-card .play-button {
@@ -367,7 +367,7 @@
     width: 40vw;
   }
   .project-card .name {
-    font-size: 24px;
+    font-size: 21px;
   }
   .project-card .description {
     font-size: 18px;
@@ -400,7 +400,7 @@ header .social:hover {
   transform: scale(1.05);
 }
 header .self-text {
-  text-align: center;
+  text-align: left;
   font-family: GOST type A, sans-serif;
   font-weight: bolder;
   font-size: 40px;
@@ -446,16 +446,17 @@ footer {
 }
 footer copyright {
   font-family: Gost type A, sans-serif;
-  font-style: italic;
-  font-size: 24px;
+  font-style: bold;
+  font-size: 22px;
 }
 
 html {
   background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
 }
 
 .wrapper {
-  min-height: calc(100vh - 35px);
+  min-height: calc(100vh - 37px);
 }
 
 main {
